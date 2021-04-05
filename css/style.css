@@ -78,6 +78,7 @@ input {
 	text-transform: uppercase;
 	width: 240px;
 }
+
 .content input[type="reset"] {
 	background-color: #2c90c6;
 	border: 1px solid #2c90c6;
@@ -93,10 +94,12 @@ input {
 	text-transform: uppercase;
 	width: 240px;
 }
+
 .content input[type="submit"]:hover {
     background-color: #2c70c6;
     box-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
 }
+
 .content input[type="reset"]:hover {
     background-color: #2c70c6;
     box-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
