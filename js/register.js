@@ -32,3 +32,38 @@ function inputsQuantity (inputs) {
     }
 }
 inputsQuantity();
+
+function validLabels (inputs, labels) {
+    document.querySelectorAll('.infoInput').name;
+    document.querySelectorAll('labels').for;
+      if (inputs === labels) {
+        validations.append(validResult + " " + 'Each input has its label' + " ");
+      }
+      else {
+        validations.append(validResult + " " + 'Input labels missing' + " ");
+      }
+  }
+  validLabels();
+
+  function validAnchor (anchor, validAnchor){
+    document.querySelectorAll('submit').href;
+      if (anchor = validAnchor) {
+        validations.append(validResult + " " + 'Valid anchor' + " ");
+      }
+      else {
+        validations.append(validResult + " " + 'Invalid anchor' + " ");
+      }
+  }
+  validAnchor ();
+
+  function validBtns (submitBtn, resetBtn, submitValue, resetValue) {
+    document.querySelector('.submitBtn').nodeValue;
+    document.querySelector('.resetBtn').nodeValue;
+      if ((submitBtn = submitValue) && (resetBtn = resetValue)) {
+        validations.append(validResult + " " + 'Button content is correct' + " ");
+      }
+      else {
+        validations.append(validResult + " " + 'Button content is invalid' + " ");
+      }
+  }
+  validBtns();
